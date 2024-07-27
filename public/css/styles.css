@@ -1,0 +1,142 @@
+/* public/css/styles.css
+    link to this CSS file from HTML file : <link rel="stylesheet" href="{{ asset('css/styles.css') }}"> */
+
+/* style webpage */
+body {
+    background: black;
+    color: whitesmoke;
+    border: 10px solid whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    font-family: Haettenschweiler, sans-serif;
+}
+
+/* style main heading */
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+/* format tab links */
+.tabNav {
+    display: flex;
+    /* position internal tab navigation links */
+    justify-content: end;
+    background-color: inherit;
+}
+
+/* format tab link list */
+.tabNav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* style tab links */
+.tabNav a {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* change tab link background colour upon hover */
+.tabNav a:hover {
+    background-color: #434242;
+}
+
+/* style links */
+a {
+    /* remove underline */
+    text-decoration: none;
+    /* change link shade of */
+    color: lightskyblue;
+}
+
+/* format footer content */
+footer {
+    text-align: center;
+}
+
+/* format header content */
+header {
+    text-align: center;
+}
+
+/* format list items */
+li {
+    /* leave a line after each article listed */
+    margin-bottom: 15px;
+}
+
+/* centre forms */
+#searchForms {
+    text-align: center;
+}
+
+/* adjust input attributes */
+input {
+    /* size */
+    height: 40px;
+    width: 140px;
+    /* centralise text */
+    text-align: center;
+}
+
+/* adjust textarea attributes */
+textarea {
+    /* size */
+    height: 100px;
+    width: 80%;
+}
+
+/* adjust select attributes */
+select {
+    /* size */
+    height: 50px;
+    width: 150px;
+}
+
+/* format form content */
+form {
+    padding: 20px;
+}
+
+/* centralise forms and form content */
+.centreForm {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style form submission buttons */
+.formSubmit {
+    width: 150px;
+    height: 50px;
+}
+
+/* style messages used to notify user of outcomes */
+.userMessage {
+    /* italicise message */
+    font-style: italic;
+    text-align: center;
+}
+
+/* style tips used to provide direction to user */
+.userDirection {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: smaller;
+}
+
+/* style user alerts */
+.userAlert {
+    text-align: center;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+/* change cursor when button or link hovered over */
+button:hover,
+a:hover {
+    cursor: pointer;
+}
